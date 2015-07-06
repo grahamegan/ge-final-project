@@ -48,7 +48,6 @@ $(document).ready(function(){
 
 	function idogtify(){
 		console.log("idogtify clicked");
-		// $("button").hide();
 
 		if (size == "small") {
 			if (coat == "long"){
@@ -83,4 +82,5 @@ $(document).ready(function(){
 			}
 		} 
 	}
+
 });
