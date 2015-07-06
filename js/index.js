@@ -44,7 +44,6 @@ $(document).ready(function(){
 		$(".tail").hide();
 		$("button").show();
 		$("body").addClass("black");
-
 	}
 
 	function idogtify(){
@@ -74,7 +73,14 @@ $(document).ready(function(){
 					console.log("it's a pug!");}
 				}
 				}
+			} 
+		} else { if (size == "large"){
+			if (coat == "long"){
+				if (tail == "saber"){
+					$("button").html("It's a Newfoundland!");
+					console.log("it's a newfoundland!");}
+				}
 			}
 		}
 	}
-})
+});
