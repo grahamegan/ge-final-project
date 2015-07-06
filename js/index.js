@@ -78,9 +78,9 @@ $(document).ready(function(){
 			if (coat == "long"){
 				if (tail == "saber"){
 					$("button").html("It's a Newfoundland!");
-					console.log("it's a newfoundland!");}
+					console.log("it's a newfoundland!");}	
 				}
 			}
-		}
+		} 
 	}
 });

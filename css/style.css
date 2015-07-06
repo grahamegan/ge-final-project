@@ -1,6 +1,6 @@
 /* 
 Project Name: idogtifier
-Client: Your Client
+Client: Me
 Author: Graham Egan
 Developer @GA in NYC
 */
@@ -103,14 +103,14 @@ header h2 {
      margin-left: 1%;
 }
 
-nav ul li a {
+/*nav ul li a {
      float: right;
      margin-top: 9.3%;
-}
+}*/
 
 img {
      max-width: 23%;
-     border: 1px solid black;
+     border: 3px solid black;
      float: left;
      padding: 1%;
      margin: 1%;
@@ -149,10 +149,6 @@ h2 img {
      padding: 0;
 }
 
-footer nav ul li a {
+/*footer nav ul li a {
      margin-top: 0;
-}
-
-h3 {
-     color: white;
-}
+}*/
