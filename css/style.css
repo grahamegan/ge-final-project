@@ -48,9 +48,19 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: futura, Arial, sans-serif;
+     -webkit-transition: all 1.5s ease;
+     -moz-transition: all 1.5s ease;
+     transition: all 1.5s ease;
 }
 
+a {
+     text-decoration: none;
+}
+
+.black {
+     background: black;
+}
 
 /******************************************
 /* LAYOUT
@@ -64,12 +74,9 @@ body {
 
 header {
      margin-top: 1%;
-     background-color: blue;
 }
 
 footer {
-     background-color: blue;
-
 }
 
 section {
@@ -78,6 +85,28 @@ section {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+h1 img {
+     border: none;
+     max-width: 40%;
+     padding: 0;
+     margin: 1%;
+}
+
+h2 {
+     float: left;
+}
+
+header h2 {
+     margin-top: 7.2%;
+     font-size: 2.3em;
+     margin-left: 1%;
+}
+
+nav ul li a {
+     float: right;
+     margin-top: 9.3%;
+}
 
 img {
      max-width: 23%;
@@ -89,4 +118,41 @@ img {
 
 .coat {
      display: none;
+}
+
+.tail {
+     display: none;
+}
+
+.tail img {
+     max-width: 14.66%;
+     padding: 4.2% 0 4.2% 0;
+}
+
+button {
+     display: none;
+     margin-left: 38%;
+     padding: 2%;
+     background: white;
+     border: none;
+     color: black;
+     font-size: 2em;
+     border-radius: 10px;
+     font-family: futura;
+     margin-top: 10%;
+     width: 25%;
+}
+
+h2 img {
+     max-width: 15%;
+     border: none;
+     padding: 0;
+}
+
+footer nav ul li a {
+     margin-top: 0;
+}
+
+h3 {
+     color: white;
 }
